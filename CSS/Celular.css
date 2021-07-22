@@ -1,0 +1,50 @@
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    :root {
+        font-size: 6px;
+    }
+
+    .Seccion_hero {
+        height: 50vh;
+        background-position: center;
+    }
+
+    .Seccion_hero div h1 {
+        width: 100%;
+    }
+
+    /* --------------------- */
+
+    .Seccion_3b {
+        flex-direction: column;
+    }
+
+    .Seccion_3b-1 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .Seccion_3b-2 {
+        width: 100%;
+        height: 10vh;
+    }
+
+    /* ------------------------ */
+
+    .card_1, .card_2, .card_3 {
+        grid-template-rows: 15vh;
+    }
+
+    .card_1-img, .card_2-img, .card_3-img {
+        background-size: cover;
+    }
+
+    /* --------------------------- */
+
+    .contact {
+        grid-template-columns:50% 50%;
+        grid-template-rows: 10vh 10vh;
+        grid-template-areas: 
+        "red tel"
+        "loc loc";
+    }
+}
