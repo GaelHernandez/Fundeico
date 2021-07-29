@@ -563,7 +563,7 @@
     font-family: var(--tipografia_2);
     font-size: 1.5rem;
     width: fit-content;
-    height: fit-content;
+    height: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
