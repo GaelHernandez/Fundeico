@@ -22,8 +22,8 @@
         position: fixed;
         right: 4rem;
         display: flex;
-        height: 4rem;
-        width: 4rem;
+        height: 3rem;
+        width: 3rem;
         background-image: url(../Img/menuh.png);
         background-position: center;
         background-size: cover;
