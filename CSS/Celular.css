@@ -16,6 +16,11 @@
         display: none;
     }
 
+    .welcome {
+        font-size: 42px;
+
+    }
+
     /* --------------------------- */
 
     .menuh {
@@ -34,6 +39,10 @@
         display: flex;
     }
 
+    .menucel a {
+        font-size: 3rem;
+    }
+
     .act {
         background-image: url(../Img/close.png);
         background-size: cover;
@@ -47,13 +56,6 @@
         left: 0;
         transition-property: left;
         transition-duration: 0.5s;
-        transition-timing-function: linear;
-    }
-
-    .act_3 {
-        z-index: 0;
-        transition-property: z-index;
-        transition-delay: 0.5s;
         transition-timing-function: linear;
     }
 
@@ -96,8 +98,14 @@
 
     /* ------------------------ */
 
-    .card_1, .card_2, .card_3 {
-        grid-template-rows: 15vh;
+    .card_1, .card_3 {
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 20vh;
+    }
+
+    .card_2 {
+        grid-template-columns: 65% 35%;
+        grid-template-rows: 20vh;
     }
 
     .card_1-img, .card_2-img, .card_3-img {
@@ -105,17 +113,26 @@
     }
 
     .Seccion_4 a {
-        width: 90%;
+        width: 100%;
+    }
+
+    .card_1-txt p, .card_2-txt p, .card_3-txt p{
+        font-size: 0.85rem;
+    }
+
+    .card_1-txt h3, .card_2-txt h3, .card_3-txt h3 {
+        font-size: 1.3rem;
     }
 
     /* --------------------------- */
 
     .contact {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: 
-        "red tel"
-        "loc loc";
+        "red"
+        "tel"
+        "loc";
     }
 
     .contact div {
