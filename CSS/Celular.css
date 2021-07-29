@@ -12,7 +12,73 @@
         width: 100%;
     }
 
+    .Hero_nav ul {
+        display: none;
+    }
+
+    /* --------------------------- */
+
+    .menuh {
+        position: fixed;
+        right: 4rem;
+        display: flex;
+        height: 4rem;
+        width: 4rem;
+        background-image: url(../Img/menuh.png);
+        background-position: center;
+        background-size: cover;
+        z-index: 200;
+    }
+
+    .menucel {
+        display: flex;
+    }
+
+    .act {
+        background-image: url(../Img/close.png);
+        background-size: cover;
+        background-position: center;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .act_2 {
+        z-index: 99;
+        left: 0;
+        transition-property: left;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+    }
+
+    .act_3 {
+        z-index: 0;
+        transition-property: z-index;
+        transition-delay: 0.5s;
+        transition-timing-function: linear;
+    }
+
     /* --------------------- */
+
+    .Seccion_2 {
+        flex-direction: column;
+    }
+
+    .Seccion_2-1 {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .Seccion_2-2 {
+        width: 90%;
+        align-self: flex-end;
+    }
+    /* ----------------------------- */
+
+    .Seccion_3-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .Seccion_3b {
         flex-direction: column;
@@ -38,13 +104,35 @@
         background-size: cover;
     }
 
+    .Seccion_4 a {
+        width: 90%;
+    }
+
     /* --------------------------- */
 
     .contact {
-        grid-template-columns:50% 50%;
-        grid-template-rows: 10vh 10vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-areas: 
         "red tel"
         "loc loc";
+    }
+
+    .contact div {
+        height: 100%;
+    }
+
+    .data {
+        height: 5rem;
+    }
+    
+    .data a {
+        height: 5rem;
+    }
+
+    .loc div {
+        display: flex;
+        align-items: center;
+        height: 100%;
     }
 }
