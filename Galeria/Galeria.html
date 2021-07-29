@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="CSS/Celular.css">
     <title>Fundeico</title>
 </head>
 <body>
@@ -23,15 +24,30 @@
                 <a href="../Index.html#e-community">e-Community</a>
                 <a href="#contacto">Contacto</a>
             </ul>
+
+            <div id="menuh" class="menuh" onclick="cambio()">
+            </div>
+
+            <div class="menucel" id="menucel">
+                <a href="../Index.html#inicio" onclick="cambio()">Inicio</a>
+                <a href="../Index.html#nosotros" onclick="cambio()">Nosotros</a>
+                <a href="../Index.html#ve" onclick="cambio()">Vitrina Ecologica</a>
+                <a href="../Index.html#econews" onclick="cambio()">Eco-News</a>
+                <a href="../Index.html#pasatiempo" onclick="cambio()">Pasatiempos</a>
+                <a href="../Index.html#e-community" onclick="cambio()">e-Community</a>
+                <a href="#contacto" onclick="cambio()">Contacto</a>    
+            </div>
+
         </nav>
         
-        <div>
+        <div class="titulo">
             <h1>
                 Galería de Imagenes
             </h1>    
         </div>
 
     </main>
+
     <div class="Titulo">
         <h2>Galería</h2>
     </div>
@@ -83,6 +99,10 @@
         <div>
             <img src="Img/15.jpg" alt="">
         </div>
+
+        <div>
+            <img src="Img/16.jpg" alt="">
+        </div>
     </section>
 
     <section class="Seccion_5" id="contacto">
@@ -93,7 +113,7 @@
                 <h3>Redes</h3>
                 <div class="data">
                     <a href="https://instagram.com/fundeicof?utm_medium=copy_link" target="_blank">
-                        <img src="Img/instagram.svg" alt="">
+                        <img src="../Img/instagram.svg" alt="">
                         <p>@Fundeicof</p>
                     </a>
                 </div>
@@ -103,12 +123,12 @@
                 <h3>Telefonos</h3>
                 <div class="data">
                     <a href="https://api.whatsapp.com/send?phone=584121352227&text=Hola%2C+quiero+unirme+al+equipo+de+Vitrina+Ecologica+y+cambiar+el+mundo+%F0%9F%98%8A&app_absent=0" target="_blank">
-                        <img src="Img/whatsapp.svg" alt="">
+                        <img src="../Img/whatsapp.svg" alt="">
                         <p>+58 412 135-2227</p>
                     </a>
 
-                    <a href="">
-                        <img src="Img/telefono.svg" alt="">
+                    <a href="tel:02455813370">
+                        <img src="../Img/telefono.svg" alt="">
                         <p>0245 581-3370</p>
                     </a>
                 </div>
@@ -116,9 +136,9 @@
 
             <div class="loc">
                 <h3>Ubicación</h3>
-                <div class="data2">
-                    <a class="location" href="">Venezuela. San Diego, Edo. Carabobo.</a>
-                </div>
+                    <div>
+                            <a class="location" href="">Venezuela. San Diego, Edo. Carabobo.</a>
+                    </div>
             </div>
 
     </section>
