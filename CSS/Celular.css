@@ -17,9 +17,10 @@
     }
 
     .welcome {
-        font-size: 42px;
+        font-size: 3.7rem;
 
     }
+    
 
     /* --------------------------- */
 
@@ -152,4 +153,52 @@
         align-items: center;
         height: 100%;
     }
+
+    /* ---------------Quienes somos------------------ */
+    .Seccion_1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "txt"
+        "img";
+    }
+
+    .Seccion_3 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "txt"
+        "img";
+    }
+
+    .Seccion_3-1 {
+        grid-area: img;
+    }
+
+    .Seccion_3-2 {
+        grid-area: txt;
+    }
+
+
+
+    .Seccion_4a {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "txt"
+        "img";
+    }
+
+    .Seccion_4a-1 {
+        grid-area: auto;
+    }
+
+    .Seccion_4a-2 {
+        grid-area: auto;
+    }
+
+    .video1 {
+        height: 25vh;
+    }
+
 }
