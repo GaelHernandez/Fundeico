@@ -699,7 +699,7 @@
     align-items: center;
 }
 
-.don a {
+.don p {
     height: fit-content;
     text-align: center;
     text-decoration: none;
@@ -722,11 +722,14 @@
 }
 
 .Seccion_4b div {
-    border: 2px solid var(--color_1);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 2rem;
+}
+
+.Seccion_4b img {
+    width: 50%;
 }
 
 .Seccion_4b h2 {
@@ -905,4 +908,15 @@
     color: black;
     font-size: 1rem;
     line-height: 1.5rem;
+}
+
+
+footer {
+    background-color: var(--color_1);
+    font-family: var(--tipografia_2);
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    height: 2rem;
+    margin-top: 2rem;
 }

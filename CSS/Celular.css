@@ -202,4 +202,12 @@
         height: 25vh;
     }
 
+
+    .Seccion_4b div {
+        flex-direction: column;
+    }
+
+    .Seccion_4b img {
+        width: 100%;
+    }
 }
